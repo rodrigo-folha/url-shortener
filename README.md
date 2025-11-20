@@ -31,19 +31,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./url-shortener-frontend/src/images/img-02.png" width="45%">
-  <img src="./url-shortener-frontend/src/images/img-04.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="./url-shortener-frontend/src/images/img-05.png" width="100%">
-</p>
-
----
-
 ## 🧠 Tecnologias e Frameworks
 
 | Camada          | Ferramenta / Biblioteca         | Propósito                                            |
@@ -60,6 +47,19 @@
 |                 | **TypeScript**                  | Tipagem estática no frontend                         |
 |                 | **Tailwind CSS**                | Estilização rápida e responsiva                      |
 |                 | **Fetch API**                   | Comunicação com a API do backend                     |
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-02.png" width="45%">
+  <img src="./url-shortener-frontend/src/images/img-04.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-05.png" width="100%">
+</p>
 
 ---
 
