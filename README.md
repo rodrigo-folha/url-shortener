@@ -13,18 +13,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="./url-shortener-frontend/src/images/img-02.png" width="45%">
-  <img src="./url-shortener-frontend/src/images/img-04.png" width="45%">
-</p>
-
-<p align="center">
-  <img src="./url-shortener-frontend/src/images/img-05.png" width="60%">
-</p>
-
-
 ## 📦 Descrição
 
 **url-shortener** é uma aplicação **full stack** para encurtamento de URLs, composta por:
@@ -40,6 +28,19 @@
   * interface para criação das URLs encurtadas;
   * dashboard com listagem paginada, edição, exclusão e visualização de estatísticas;
   * rota de redirecionamento (`/{short}`) que consome o backend e envia o usuário para a URL original.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-02.png" width="45%">
+  <img src="./url-shortener-frontend/src/images/img-04.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-05.png" width="100%">
+</p>
 
 ---
 
