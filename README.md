@@ -13,6 +13,18 @@
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-02.png" width="45%">
+  <img src="./url-shortener-frontend/src/images/img-04.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="./url-shortener-frontend/src/images/img-05.png" width="60%">
+</p>
+
+
 ## 📦 Descrição
 
 **url-shortener** é uma aplicação **full stack** para encurtamento de URLs, composta por:
