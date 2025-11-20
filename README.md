@@ -1,9 +1,3 @@
-Show, bora montar esse README no mesmo estilo do delivery-microservices 😎
-
-Segue o conteúdo pronto pra você colar no `README.md` do repositório `url-shortener`:
-
----
-
 # URL Shortener
 
 [![Java](https://img.shields.io/badge/Java-21+-red?logo=java\&style=flat-square)](https://www.oracle.com/java/)
@@ -34,8 +28,6 @@ Segue o conteúdo pronto pra você colar no `README.md` do repositório `url-sho
   * interface para criação das URLs encurtadas;
   * dashboard com listagem paginada, edição, exclusão e visualização de estatísticas;
   * rota de redirecionamento (`/{short}`) que consome o backend e envia o usuário para a URL original.
-
-O objetivo do projeto é ser um **bom exemplo de integração entre um backend REST em Spring Boot e um frontend moderno em Next.js**, pronto para uso em portfólio.
 
 ---
 
@@ -78,8 +70,6 @@ url-shortener/
 └── README.md
 ```
 
-*(Os nomes das pastas podem variar levemente conforme evolução do projeto, mas a ideia geral é frontend e backend no mesmo repositório.)*
-
 ---
 
 ## 🛠️ Como Executar Localmente
@@ -100,14 +90,14 @@ cd url-shortener
 
 ### 2️⃣ Configurar e subir o backend (Spring Boot)
 
-1. Configure as credenciais do banco em `url-shortener/src/main/resources/application.yml` ou `application.properties`:
+1. Configure as credenciais do banco em `url-shortener/src/main/resources/application.yml`:
 
 ```yaml
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/urlshortener
-    username: seu_usuario
-    password: sua_senha
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
@@ -123,8 +113,8 @@ mvn clean spring-boot:run
 O backend ficará disponível em:
 👉 `http://localhost:8080`
 
-A documentação Swagger/OpenAPI (se habilitada) costuma ficar em algo como:
-👉 `http://localhost:8080/swagger-ui.html` ou `/swagger-ui/index.html`
+A documentação Swagger/OpenAPI ficará disponível em:
+👉 `http://localhost:8080/swagger-ui.html`
 
 ### 3️⃣ Configurar e subir o frontend (Next.js)
 
